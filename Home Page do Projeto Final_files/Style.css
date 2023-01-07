@@ -20,44 +20,11 @@
     display: flex;
     justify-content: space-between;
  }
-nav a{
+a{
     letter-spacing: 2px;
     color: rgb(71, 70, 70);
     text-decoration: none;
     padding: 24px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold
-}
-body{
-background-color: rgb(183, 183, 183);
-}
-#dstq{
-   display:flex ;
-   width: auto;
-   height: auto;
-   justify-content: space-between;
-   margin-left: auto;
-   margin-right: auto;
-}
-#dstq img{
-padding-right: 15px;
-padding-left: 15px;
-}
-a{display:flex;
-   justify-content: space-between;
-   padding-right: 120px;
-   padding-left: 138px;
-   padding-top: 10px;
-}
-#preco{
-   display:flex ;
-
-}
-h1{
-   text-align: center;
-}
-#spr{
-   text-align: center;
-   margin-left: 90px;
-   margin-right: 90px;  
-}
+};
