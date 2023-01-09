@@ -1,3 +1,10 @@
+body{
+   margin: 0px;
+   background-repeat: no-repeat;
+   background-image: url(big1.jpeg);
+   background-size: 100%;
+   overflow: scroll;
+}
 #lft{
     margin-left: 0%;
     margin-right: 0%;
@@ -32,25 +39,15 @@ body{
 background-color: rgb(183, 183, 183);
 }
 #dstq{
-   display:flex ;
-   width: auto;
-   height: auto;
-   justify-content: space-between;
-   margin-left: auto;
-   margin-right: auto;
+   display:flex;
+   justify-content: space-around;
+  padding-right: 90px;
+  padding-left: 90px;
 }
 #dstq img{
+   display: flex;
 padding-right: 15px;
 padding-left: 15px;
-}
-a{display:flex;
-   justify-content: space-between;
-   padding-right: 120px;
-   padding-left: 138px;
-   padding-top: 10px;
-}
-#preco{
-   display:flex ;
 
 }
 h1{
@@ -58,6 +55,15 @@ h1{
 }
 #spr{
    text-align: center;
-   margin-left: 90px;
-   margin-right: 90px;  
+     
+}
+#peqeno img{
+   
+   height: 335px;
+}
+h4{
+   margin-top: 11px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
 }
