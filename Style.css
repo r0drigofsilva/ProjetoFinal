@@ -1,12 +1,13 @@
 body{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    margin: 0px;
-   background-repeat: no-repeat;
-   background-image: url(big1.jpeg);
+   background-repeat: round;
+   background-image: url(bk.webp);
    background-size: 100%;
    overflow: scroll;
 }
 #lft{
-    margin-left: 0%;
+    margin-left: 10px;
     margin-right: 0%;
     display: flex;
  }
@@ -24,6 +25,7 @@ body{
  nav{
     background-color: rgb(149, 149, 149);
     position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
  }
@@ -35,25 +37,28 @@ nav a{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold
 }
-body{
-background-color: rgb(183, 183, 183);
-}
+
 #dstq{
    display:flex;
    justify-content: space-around;
-  padding-right: 90px;
-  padding-left: 90px;
+   padding-right: 90px;
+   padding-left: 90px;
+   padding-top: 45px;
+   flex-wrap: wrap;
+
 }
-#dstq img{
-   display: flex;
+#dstq img{ 
 padding-right: 15px;
 padding-left: 15px;
 
 }
 h1{
+   color: rgb(221, 221, 221);
    text-align: center;
 }
 #spr{
+ 
+   padding-top: 90px;;
    text-align: center;
      
 }
@@ -62,8 +67,87 @@ h1{
    height: 335px;
 }
 h4{
+   color: rgb(221, 221, 221);
    margin-top: 11px;
    margin-bottom: 0px;
    margin-left: 0px;
    margin-right: 0px;
+}
+div#dstq div {
+   margin-bottom: 45px;
+   box-sizing: border-box;
+   width: 27;
+}
+footer{
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background:rgb(149, 149, 149);
+   height: auto;
+   width: 100vw;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   padding-top: 40px;
+}
+footer li{
+   color: rgb(71, 70, 70);
+}
+footer p{
+   color: rgb(71, 70, 70);
+   margin-bottom: 0px;
+}footer h3{
+   color: rgb(71, 70, 70);
+}
+.footer-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+.footer-content h3{
+   font-size: 1.8rem;
+   font-weight: 400;
+   text-transform: capitalize;
+   line-height: 3rem;
+}
+.footer-content p{
+   max-width: 500px;
+   margin: 10px auto;
+   line-height: 28px;
+   font-size: 14px;
+}
+.socials{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 1rem 0 3rem;
+}
+.socials li{
+   margin: 0 10px
+}
+.socials a{
+   text-decoration: none;
+}
+.socials a i{
+   font-size: 1.1rem;
+   transition: color .4s ease;
+}
+.socials a:hover i{
+   color: red;
+}
+.footer-bottom{
+   width: 100vw;
+   padding: 20px 0;
+   text-align: center;
+}
+.footer-bottom p{
+   font-size: 14px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+}
+.footer-bottom span{
+   text-transform: uppercase;
+   opacity: .4;
+   font-weight: 200;
 }
