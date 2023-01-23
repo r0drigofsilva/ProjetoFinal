@@ -3,7 +3,7 @@ body{
    margin: 0px;
    background-repeat: round;
    background-image: url(bk.webp);
-   background-size: 100%;
+   background-size: cover;
    overflow: scroll;
 }
 #lft{
@@ -17,10 +17,21 @@ body{
     width: 70px;
     height: 70px;
  }
+ #logo{
+   text-align: left;
+   display: flex;
+   width: 70px;
+   height: 70px;
+   padding: 0px;
+ }
  #rgth{
     margin-left: 0%;
     margin-right: 0%;
     display: flex;
+ }
+ #rgth a:hover{
+   background-color:rgb(40, 39, 40);
+   color: rgb(149, 149, 149)
  }
  nav{
     background-color: rgb(149, 149, 149);
@@ -84,7 +95,7 @@ footer{
    right: 0;
    background:rgb(149, 149, 149);
    height: auto;
-   width: 100vw;
+   /*width: 100vw;*/
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    padding-top: 40px;
 }
@@ -94,6 +105,7 @@ footer li{
 footer p{
    color: rgb(71, 70, 70);
    margin-bottom: 0px;
+  
 }footer h3{
    color: rgb(71, 70, 70);
 }
@@ -116,6 +128,14 @@ footer p{
    line-height: 28px;
    font-size: 14px;
 }
+.footer-content a{
+   text-decoration: none;
+   color: rgb(71, 70, 70);
+   margin: 10px;
+}
+.footer-content a:hover{
+   color:#bd4d1b
+}
 .socials{
    list-style: none;
    display: flex;
@@ -124,20 +144,21 @@ footer p{
    margin: 1rem 0 3rem;
 }
 .socials li{
-   margin: 0 10px
+   margin: 0 10px;
 }
 .socials a{
    text-decoration: none;
+   color: dimgray;
 }
 .socials a i{
    font-size: 1.1rem;
    transition: color .4s ease;
 }
 .socials a:hover i{
-   color: red;
+   color: #bd4d1b;
 }
 .footer-bottom{
-   width: 100vw;
+   /*width: 100vw;*/
    padding: 20px 0;
    text-align: center;
 }
@@ -150,4 +171,8 @@ footer p{
    text-transform: uppercase;
    opacity: .4;
    font-weight: 200;
+}
+ul{
+   text-align: center;
+   padding-inline-start: 0;
 }
